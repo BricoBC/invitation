@@ -1,0 +1,87 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Quicksand:wght@300&display=swap');
+:root{
+    --txt-names-boda-lg: 90px;
+    --txt-lg: 28px;
+    --fuente-names-boda: 'Amatic SC', cursive;
+    --fuente-info: 'Quicksand', sans-serif;
+    --carta: 50vh solid rgba(0, 0, 0, .4);
+}
+*{
+    margin: 0;
+}
+.triangulo .uno{
+    margin: 0;
+    width: 0;
+    height: 0;
+    border-bottom: var(--carta);
+    border-left: 280px solid transparent;
+    border-right: 0px solid transparent;
+}
+.triangulo .tres{
+    border-top: var(--carta);
+    border-left: 280px solid transparent;
+    border-right: 0px solid transparent;
+}
+.triangulo .dos{
+    border-bottom: var(--carta);
+    border-left: 0px solid transparent;
+    border-right: 280px solid transparent;
+}
+.triangulo .cuatro{
+    border-top: var(--carta);
+    border-left: 0px solid transparent;
+    border-right: 280px solid transparent;
+}
+.carta{
+    background-color: #D9AFD9;
+    background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+}
+.invitado{
+    padding: 10px 0;
+    border-style: double;
+    background-color: aliceblue;
+}
+h3{
+    font-size: var(--txt-lg);
+    margin: 0 20px;
+    font-family: var(--fuente-info);
+}
+.lienzo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-style: solid;
+}
+.boda{
+    margin: 20px;
+    background-image: url(invitation.jpg);
+    padding-top: 40px;
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: azure;
+    box-sizing: border-box
+}
+h2{
+    font-size: var(--txt-names-boda-lg);
+    align-content: center;
+    font-family: var(--fuente-names-boda);
+}
+.information{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+button{
+    margin: 10px;
+    height: 35px;
+    width: 90px;
+}

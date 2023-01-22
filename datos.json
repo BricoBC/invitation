@@ -1,0 +1,38 @@
+{
+    "novio": {
+        "nombre": "Bruno Nicolas",
+        "apellido_paterno": "Barajas",
+        "apellido_materno": "Correa",
+        "edad": 22
+    },
+    "novia": {
+        "nombre": "Estefanny Jaquelin",
+        "apellido_paterno": "Sobrevilla",
+        "apellido_materno": "Acosta",
+        "edad": 21
+    },
+    "invitados": [
+        {
+            "number": 1,
+            "nombre": "Cesar Alcantara Juarez",
+            "invitados_extras": 3
+        },
+        {
+            "number": 2,
+            "nombre": "Axel Galvan Mora",
+            "invitados_extras": 3
+        }
+    ],
+    "fecha": {
+        "day": 12,
+        "month": "Febrero",
+        "year": 2023
+    },
+    "hora": "12:12 pm",
+    "lugar": {
+        "colonia": "Rio de luz",
+        "municipio": "Ecatepec de Morelos",
+        "maps": "https://www.google.com.mx/maps/@19.550846,-99.025274,20.75z"
+    }
+
+}
